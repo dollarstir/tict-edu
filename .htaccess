@@ -1,0 +1,3 @@
+#Turn Rewrite Engine on
+RewriteEngine on
+RewriteRule ^home index.php [NC,L]
