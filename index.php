@@ -13,71 +13,14 @@
 </head>
 
 <body>
-  <div class="bg-top navbar-light">
-    <div class="container">
-      <div class="row no-gutters d-flex align-items-center align-items-stretch">
-        <div class="col-md-4 d-flex align-items-center py-4">
-          <a class="navbar-brand" href="index.html">Tucee <span>Institute of Counseling</span></a>
-          <!-- <a class="navbar-brand" href="index.html">
-            <img src="images/logo.jpg" style="width:120px;height:120px;" />
-          </a> -->
-
-        </div>
-        <div class=" col-lg-8 d-block">
-          <div class="row d-flex">
-            <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-              <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-              <div class="text">
-                <span>Email</span>
-                <span><a href="mailto:support@tict-edu.org" class="__cf_email__" data-cfemail="97eef8e2e5f2faf6fefbd7f2faf6fefbb9f4f8fa">support@tict-edu.org</a></span>
-              </div>
-            </div>
-            <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-              <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-              <div class="text">
-                <span>Call</span>
-                <span>Call Us: +233208496496</span>
-              </div>
-            </div>
-            <div class="col-md topper d-flex align-items-center justify-content-end">
-              <p class="mb-0">
-                <a href="index.html#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
-                  <span>Apply now</span>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container d-flex align-items-center px-4">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-      <form action="#" class="searchform order-lg-last">
-        <div class="form-group d-flex">
-          <input type="text" class="form-control pl-3" placeholder="Search">
-          <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
-        </div>
-      </form>
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="teacher.html" class="nav-link">Staff</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- topmostcontent -->
+  <?php topmost(); ?>
+  <!-- header goes here -->
+  <?php hbar(1); ?>
 
   <section class="home-slider owl-carousel">
     <div class="slider-item" style="background-image:url('images/tucee/2.jpg');background-size:contain;width:100%;">
-      <div class="overlay"></div>
+      <!-- <div class="overlay"></div> -->
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate">
@@ -95,7 +38,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="index.html#" class="btn btn-primary px-4 py-3 mt-3">Call to register</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Call to register</a></p>
           </div>
         </div>
       </div>
@@ -108,7 +51,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="index.html#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
           </div>
         </div>
       </div>
@@ -121,7 +64,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="index.html#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
           </div>
         </div>
       </div>
@@ -134,7 +77,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="index.html#" class="btn btn-primary px-4 py-3 mt-3">Apply Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Apply Now</a></p>
           </div>
         </div>
       </div>
@@ -149,8 +92,11 @@
               <span class="flaticon-teacher"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Certified Teachers</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <h3 class="heading">Mission</h3>
+              <p>
+                Transforming our universe via counselling, education and empowerment.
+
+              </p>
             </div>
           </div>
         </div>
@@ -160,8 +106,9 @@
               <span class="flaticon-reading"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Special Education</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <h3 class="heading">Vision</h3>
+              <p>To become the leading institution that promote professionalism and best practice in counselling practice and integration of technologies in all disciplines via quality research, training, practice and advocacy.
+              </p>
             </div>
           </div>
         </div>
@@ -171,8 +118,11 @@
               <span class="flaticon-books"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Book &amp; Library</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <h3 class="heading">Motto</h3>
+              <p>
+                We counsel, educate and empower.
+
+              </p>
             </div>
           </div>
         </div>
@@ -182,15 +132,18 @@
               <span class="flaticon-diploma"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Sport Clubs</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              <h3 class="heading">Our Commitment</h3>
+              <p>The TICT team seeks to be good stewards of opportunities and resources entrusted to us. In doing this, we remain accountable for both the achievements of desired results and for the prudent
+                use of the human, physical and financial resources. As TICT is committed to training of counsellors with the compassion of our creator, we hope to go an extra mile in assisting your individuals to
+                realise their full potential for organisational and personal success.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="ftco-section ftco-no-pt ftc-no-pb">
+  <!-- <section class="ftco-section ftco-no-pt ftc-no-pb">
     <div class="container">
       <div class="row d-flex">
         <div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
@@ -258,26 +211,36 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="ftco-section ftco-counter img" id="section-counter" style="background-image:url('images/xbg_3.jpg.pagespeed.ic.jTVL4IaShH.jpg')" data-stellar-background-ratio="0.5">
+  </section> -->
+  <section class="ftco-section ftco-counter img" id="section-counter" style="background-image:url('images/tucee/7.jpg')" data-stellar-background-ratio="0.5">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-2 d-flex">
         <div class="col-md-6 align-items-stretch d-flex">
-          <div class="img img-video d-flex align-items-center" style="background-image:url('images/xabout-2.jpg.pagespeed.ic.WZ3QXRP_6S.jpg')">
+          <div class="img img-video d-flex align-items-center" style="background-image:url('images/tucee/7.jpg')">
             <div class="video justify-content-center">
-              <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+              <a href="images/tucee/7.jpg" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
                 <span class="ion-ios-play"></span>
               </a>
             </div>
           </div>
         </div>
         <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
-          <h2 class="mb-4">Fox University</h2>
-          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+          <h2 class="mb-4">Tucee Institute of Counseling</h2>
+          <p>TUCEE Institute of Counselling and Technology (TICT) was founded by Dr. Cecilia
+            Tutu-Danquah in 2015. The institution is duly registered with the Registrar General
+            Department of Ghana in 2015. The name TUCEE means Transforming our Universe
+            via Counselling, Education and Empowerment. TICT seeks to promote the
+            counselling profession through high quality training and research.
+            TICT is the first institution in Ghana that offers a combination of programmes in
+            Counselling and Technology. Currently, the institution runs its programmes on
+            weekends using the blended learning model where students attends online lectures
+            and face-to-face tutorials. TICT is the first institution in Ghana that offers a
+            combination of programmes in Counselling and Technology.
+          </p>
+
         </div>
       </div>
-      <div class="row d-md-flex align-items-center justify-content-center">
+      <!-- <div class="row d-md-flex align-items-center justify-content-center">
         <div class="col-lg-12">
           <div class="row d-md-flex align-items-center">
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
@@ -318,58 +281,82 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
   <section class="ftco-section">
     <div class="container-fluid px-4">
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
-          <h2 class="mb-4"><span>Our</span> Courses</h2>
-          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+          <h2 class="mb-4"><span>Our</span> Programmes</h2>
+          <!-- <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
         </div>
       </div>
       <div class="row">
         <div class="col-md-3 course ftco-animate">
-          <div class="img" style="background-image:url('images/xcourse-1.jpg.pagespeed.ic.5C1Ta0pYda.jpg')"></div>
+          <div class="img" style="background-image:url('images/tucee/5.jpg');height:fit-content;width:fit-content;background-size:contain;"></div>
           <div class="text pt-4">
-            <p class="meta d-flex">
+            <!-- <p class="meta d-flex">
               <span><i class="icon-user mr-2"></i>Mr. Khan</span>
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
+            </p> -->
+            <h3><a href="#">Certificate in Counselling</a></h3>
+            <p>
+            <ul>
+              <li>Certificate in Counselling psychology</li>
+              <li>Certificate in academin and career counselling</li>
+              <li>Certificate in child and adolescent counselling</li>
+            </ul>
             </p>
-            <h3><a href="index.html#">Electric Engineering</a></h3>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <p><a href="index.html#" class="btn btn-primary">Apply now</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary">Apply now</a></p>
           </div>
         </div>
         <div class="col-md-3 course ftco-animate">
-          <div class="img" style="background-image:url('images/xcourse-2.jpg.pagespeed.ic.Rmlwj_U3G0.jpg')"></div>
+          <div class="img" style="background-image:url('images/tucee/4.jpg');height:fit-content;width:fit-content;background-size:contain;"></div>
           <div class="text pt-4">
-            <p class="meta d-flex">
+            <!-- <p class="meta d-flex">
               <span><i class="icon-user mr-2"></i>Mr. Khan</span>
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
+            </p> -->
+            <h3><a href="#">Continuous Professional Development for Counsellors
+              </a>
+            </h3>
+            <p>
+            <ul>
+              <li>Foundations of cyber counseling practice</li>
+              <li>Modalities and ethics in cyber counselling</li>
+              <li>Introduction to pre marriage counselling</li>
+              <li>Foundamentals in couples and family therapy</li>
+            </ul>
             </p>
-            <h3><a href="index.html#">Electric Engineering</a></h3>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <p><a href="index.html#" class="btn btn-primary">Apply now</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary">Apply now</a></p>
           </div>
         </div>
         <div class="col-md-3 course ftco-animate">
-          <div class="img" style="background-image:url('images/xcourse-3.jpg.pagespeed.ic.S6obNOT8KL.jpg')"></div>
+          <div class="img" style="background-image:url('images/tucee/2.jpg');height:fit-content;width:fit-content;background-size:contain;"></div>
           <div class="text pt-4">
-            <p class="meta d-flex">
+            <!-- <p class="meta d-flex">
               <span><i class="icon-user mr-2"></i>Mr. Khan</span>
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
+            </p> -->
+            <h3><a href="#">IT Professional Skll Development
+              </a>
+            </h3>
+            <p>
+            <ul>
+              <li>Web Development</li>
+              <li>Mobile App Development</li>
+              <li>Photoshop And Video Editing</li>
+              <li>Corporate Software Systems</li>
+            </ul>
             </p>
-            <h3><a href="index.html#">Electric Engineering</a></h3>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <p><a href="index.html#" class="btn btn-primary">Apply now</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary">Apply now</a></p>
           </div>
         </div>
-        <div class="col-md-3 course ftco-animate">
+        <!-- <div class="col-md-3 course ftco-animate">
           <div class="img" style="background-image:url('images/xcourse-4.jpg.pagespeed.ic.jzbrGQX2_W.jpg')"></div>
           <div class="text pt-4">
             <p class="meta d-flex">
@@ -377,11 +364,11 @@
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
             </p>
-            <h3><a href="index.html#">Electric Engineering</a></h3>
+            <h3><a href="#">Electric Engineering</a></h3>
             <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <p><a href="index.html#" class="btn btn-primary">Apply now</a></p>
+            <p><a href="#" class="btn btn-primary">Apply now</a></p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -390,7 +377,7 @@
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
           <h2 class="mb-4">Certified Teachers</h2>
-          <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+          <!-- <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
         </div>
       </div>
       <div class="row">
@@ -400,15 +387,15 @@
               <div class="img align-self-stretch" style="background-image:url('images/xteacher-1.jpg.pagespeed.ic.AyWvtajk8X.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Bianca Wilson</h3>
-              <span class="position mb-2">Teacher</span>
+              <h3>Dr. Cecilia Tutu-Danquah</h3>
+              <span class="position mb-2">Lecturer (Full Time)</span>
               <div class="faded">
-                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <p>PhD. Guidance and Counselling</p>
                 <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
@@ -420,15 +407,17 @@
               <div class="img align-self-stretch" style="background-image:url('images/xteacher-2.jpg.pagespeed.ic.RFUpMj6Lab.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Mitch Parker</h3>
-              <span class="position mb-2">English Teacher</span>
+              <h3>Mr. Prince Kwame Affum</h3>
+              <span class="position mb-2">Lecturer (Part-Time)</span>
               <div class="faded">
-                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <p>MPhil. Guidance and Counselling
+
+                </p>
                 <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
@@ -440,15 +429,15 @@
               <div class="img align-self-stretch" style="background-image:url('images/xteacher-3.jpg.pagespeed.ic.po_-LXQR-Y.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Stella Smith</h3>
-              <span class="position mb-2">Art Teacher</span>
+              <h3>Rev. Fr. Anthony Amponsah</h3>
+              <span class="position mb-2">Lecturer (Part-Time)</span>
               <div class="faded">
-                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <p>MPhil. in Psychology (Clinical)</p>
                 <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
@@ -460,15 +449,15 @@
               <div class="img align-self-stretch" style="background-image:url('images/xteacher-4.jpg.pagespeed.ic.lo-cdHm6M8.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Monshe Henderson</h3>
-              <span class="position mb-2">Science Teacher</span>
+              <h3>Mr. Gilbert Dadzie</h3>
+              <span class="position mb-2">Lecturer (Part Time)</span>
               <div class="faded">
-                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+                <p>MPhil. Guidance and Counselling</p>
                 <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
@@ -477,7 +466,102 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image:url('images/bg_5.jpg')" data-stellar-background-ratio="0.5">
+
+  <section class="ftco-section bg-light">
+    <div class="container-fluid px-4">
+      <div class="row justify-content-center mb-5 pb-2">
+        <div class="col-md-8 text-center heading-section ftco-animate">
+          <h2 class="mb-4">NON-ACADEMIC STAFF</h2>
+          <!-- <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image:url('images/xteacher-1.jpg.pagespeed.ic.AyWvtajk8X.jpg')"></div>
+            </div>
+            <div class="text pt-3 text-center">
+              <h3>Mr. Kingsley Amenuvor</h3>
+              <span class="position mb-2">Registrar</span>
+              <div class="faded">
+                <p>B.Ed. Information Technology</p>
+                <ul class="ftco-social text-center">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image:url('images/xteacher-2.jpg.pagespeed.ic.RFUpMj6Lab.jpg')"></div>
+            </div>
+            <div class="text pt-3 text-center">
+              <h3>Mr. Wisdom K. Kudjordji</h3>
+              <span class="position mb-2">Administrative Officer</span>
+              <div class="faded">
+                <p>MPhil. Guidance and Counselling
+
+                </p>
+                <ul class="ftco-social text-center">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image:url('images/xteacher-3.jpg.pagespeed.ic.po_-LXQR-Y.jpg')"></div>
+            </div>
+            <div class="text pt-3 text-center">
+              <h3>Ms. Ruth Ewoenam Atsro</h3>
+              <span class="position mb-2">B.B.A. Human Resource</span>
+              <div class="faded">
+                <p>Human Resource Mgt.</p>
+                <ul class="ftco-social text-center">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image:url('images/xteacher-4.jpg.pagespeed.ic.lo-cdHm6M8.jpg')"></div>
+            </div>
+            <div class="text pt-3 text-center">
+              <h3>Mr. Gilbert Dadzie</h3>
+              <span class="position mb-2">Lecturer (Part Time)</span>
+              <div class="faded">
+                <p>MPhil. Guidance and Counselling</p>
+                <ul class="ftco-social text-center">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <section class="ftco-section ftco-consult ftco-no-pt ftco-no-pb" style="background-image:url('images/tucee/7.jpg')" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
       <div class="row justify-content-end">
@@ -485,7 +569,7 @@
           <div class="py-md-5">
             <div class="heading-section heading-section-white ftco-animate mb-5">
               <h2 class="mb-4">Request A Quote</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
             </div>
             <form action="#" class="appointment-form ftco-animate">
               <div class="d-md-flex">
@@ -530,7 +614,8 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section bg-light">
+  <!-- Blog  section -->
+  <!-- <section class="ftco-section bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
@@ -549,13 +634,13 @@
               </div>
             </a>
             <div class="text bg-white p-4">
-              <h3 class="heading"><a href="index.html#">Skills To Develop Your Child Memory</a></h3>
+              <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <div class="d-flex align-items-center mt-4">
-                <p class="mb-0"><a href="index.html#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 <p class="ml-auto mb-0">
-                  <a href="index.html#" class="mr-2">Admin</a>
-                  <a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                  <a href="#" class="mr-2">Admin</a>
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
                 </p>
               </div>
             </div>
@@ -571,13 +656,13 @@
               </div>
             </a>
             <div class="text bg-white p-4">
-              <h3 class="heading"><a href="index.html#">Skills To Develop Your Child Memory</a></h3>
+              <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <div class="d-flex align-items-center mt-4">
-                <p class="mb-0"><a href="index.html#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 <p class="ml-auto mb-0">
-                  <a href="index.html#" class="mr-2">Admin</a>
-                  <a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                  <a href="#" class="mr-2">Admin</a>
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
                 </p>
               </div>
             </div>
@@ -593,13 +678,13 @@
               </div>
             </a>
             <div class="text bg-white p-4">
-              <h3 class="heading"><a href="index.html#">Skills To Develop Your Child Memory</a></h3>
+              <h3 class="heading"><a href="#">Skills To Develop Your Child Memory</a></h3>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
               <div class="d-flex align-items-center mt-4">
-                <p class="mb-0"><a href="index.html#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
                 <p class="ml-auto mb-0">
-                  <a href="index.html#" class="mr-2">Admin</a>
-                  <a href="index.html#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                  <a href="#" class="mr-2">Admin</a>
+                  <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
                 </p>
               </div>
             </div>
@@ -607,8 +692,11 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="ftco-section testimony-section">
+  </section> -->
+
+  <!-- end blog section -->
+  <!-- student comment section -->
+  <!-- <section class="ftco-section testimony-section">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
@@ -693,33 +781,34 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+  <!-- end student section -->
   <section class="ftco-gallery">
     <div class="container-wrap">
       <div class="row no-gutters">
         <div class="col-md-3 ftco-animate">
-          <a href="images/image_1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/xcourse-1.jpg.pagespeed.ic.5C1Ta0pYda.jpg')">
+          <a href="images/tucee/12.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/tucee/12.jpg')">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/image_2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/ximage_2.jpg.pagespeed.ic.__ePxgvLdY.jpg')">
+          <a href="images/tucee/10.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/tucee/10.jpg')">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/image_3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/ximage_3.jpg.pagespeed.ic.eS72JKpT5C.jpg')">
+          <a href="images/tucee/7.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/tucee/7.jpg')">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
           </a>
         </div>
         <div class="col-md-3 ftco-animate">
-          <a href="images/image_4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/ximage_4.jpg.pagespeed.ic.ztjwaWw5K3.jpg')">
+          <a href="images/tucee/8.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image:url('images/tucee/8.jpg')">
             <div class="icon mb-4 d-flex align-items-center justify-content-center">
               <span class="icon-instagram"></span>
             </div>
@@ -728,92 +817,9 @@
       </div>
     </div>
   </section>
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2">Have a Questions?</h2>
-            <div class="block-23 mb-3">
-              <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="index.html#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="index.html#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="e78e898188a79e88929583888a868e89c984888a">[email&#160;protected]</span></span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2">Recent Blog</h2>
-            <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image:url('images/ximage_1.jpg.pagespeed.ic.qblUUzQElE.jpg')"></a>
-              <div class="text">
-                <h3 class="heading"><a href="index.html#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="index.html#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                  <div><a href="index.html#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="index.html#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
-            <div class="block-21 mb-5 d-flex">
-              <a class="blog-img mr-4" style="background-image:url('images/ximage_2.jpg.pagespeed.ic.__ePxgvLdY.jpg')"></a>
-              <div class="text">
-                <h3 class="heading"><a href="index.html#">Even the all-powerful Pointing has no control about</a></h3>
-                <div class="meta">
-                  <div><a href="index.html#"><span class="icon-calendar"></span> June 27, 2019</a></div>
-                  <div><a href="index.html#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="index.html#"><span class="icon-chat"></span> 19</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5 ml-md-4">
-            <h2 class="ftco-heading-2">Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="index.html#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-              <li><a href="index.html#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-              <li><a href="index.html#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-              <li><a href="index.html#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
-              <li><a href="index.html#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2">Subscribe Us!</h2>
-            <form action="#" class="subscribe-form">
-              <div class="form-group">
-                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                <input type="submit" value="Subscribe" class="form-control submit px-3">
-              </div>
-            </form>
-          </div>
-          <div class="ftco-footer-widget mb-5">
-            <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
-            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="index.html#"><span class="icon-instagram"></span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p>
-            Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-            <script>
-              document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <!-- footer goes her -->
+
+  <?php ft(); ?>
 
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />

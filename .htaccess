@@ -1,3 +1,18 @@
 #Turn Rewrite Engine on
 RewriteEngine on
 RewriteRule ^home index.php [NC,L]
+RewriteRule ^aboutus about.php [NC,L]
+RewriteRule ^academics acade.php [NC,L]
+RewriteRule ^admissions adimy.php [NC,L]
+RewriteRule ^students stud.php [NC,L]
+RewriteRule ^researches res.php [NC,L]
+RewriteRule ^webconf web.php [NC,L]
+RewriteRule ^media mynews.php [NC,L]
+RewriteRule ^programmes prog.php [NC,L]
+
+
+
+
+
+
+
