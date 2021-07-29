@@ -21,6 +21,9 @@ function page($id)
     case 5:
       echo 'Tucee Institute -Students';
       break;
+    case 6:
+      echo 'Tucee Institute -Webinar & Conferences';
+      break;
     default:
       echo 'Unknown';
   }
@@ -89,24 +92,24 @@ function ft()
           <div class="ftco-footer-widget mb-5">
             <h2 class="ftco-heading-2">Recent Blog</h2>
             <div class="block-21 mb-4 d-flex">
-              <a class="blog-img mr-4" style="background-image:url(\'images/ximage_1.jpg.pagespeed.ic.qblUUzQElE.jpg\')"></a>
+              <a class="blog-img mr-4" style="background-image:url(\'images/tucee/3.jpg\')"></a>
               <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 class="heading"><a href="#">Research conference 2021</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> July 29, 2021</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  
                 </div>
               </div>
             </div>
             <div class="block-21 mb-5 d-flex">
-              <a class="blog-img mr-4" style="background-image:url(\'images/ximage_2.jpg.pagespeed.ic.__ePxgvLdY.jpg\')"></a>
+              <a class="blog-img mr-4" style="background-image:url(\'images/tucee/1.jpg\')"></a>
               <div class="text">
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                <h3 class="heading"><a href="#">Counselling Webinar</a></h3>
                 <div class="meta">
-                  <div><a href="#"><span class="icon-calendar"></span> June 27, 2019</a></div>
+                  <div><a href="#"><span class="icon-calendar"></span> July 29, 2021</a></div>
                   <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                  <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                 <!-- <div><a href="#"><span class="icon-chat"></span> 19</a></div>-->
                 </div>
               </div>
             </div>
@@ -116,11 +119,11 @@ function ft()
           <div class="ftco-footer-widget mb-5 ml-md-4">
             <h2 class="ftco-heading-2">Links</h2>
             <ul class="list-unstyled">
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>academics</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>admissions</a></li>
-              <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>media</a></li>
+              <li><a href="home"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+              <li><a href="aboutus"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+              <li><a href="academics"><span class="ion-ios-arrow-round-forward mr-2"></span>academics</a></li>
+              <li><a href="admissions"><span class="ion-ios-arrow-round-forward mr-2"></span>admissions</a></li>
+              <li><a href="media"><span class="ion-ios-arrow-round-forward mr-2"></span>media</a></li>
             </ul>
           </div>
         </div>
@@ -150,7 +153,7 @@ function ft()
             Copyright &copy;<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
             <script>
               document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </script> All rights reserved | &copy; Tucee Institute of Counselling<i class="icon-heart" aria-hidden="true"></i> by <a href="https://dollarstir.tk" target="_blank">Dollarsoft</a>
           </p>
         </div>
       </div>
@@ -166,23 +169,23 @@ function hbar($id)
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="oi oi-menu"></span> Menu
   </button>
-  <form action="#" class="searchform order-lg-last">
+  <!--<form action="#" class="searchform order-lg-last">
     <div class="form-group d-flex">
       <input type="text" class="form-control pl-3" placeholder="Search">
       <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
     </div>
-  </form>
+  </form>-->
   <div class="collapse navbar-collapse" id="ftco-nav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"><a href="" class="nav-link pl-0">Home</a></li>
       <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
       <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-      <li class="nav-item"><a href="teacher.html" class="nav-link">Admissions</a></li>
-      <li class="nav-item"><a href="blog.html" class="nav-link">Students</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Research</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Webinar & Conferences</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Media</a></li>
-      <li class="nav-item"><a href="contact.html" class="nav-link">Programmes</a></li>
+      <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+      <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
+      <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
+      <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
+      <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
+      <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
     </ul>
   </div>
 </div>
@@ -194,12 +197,12 @@ function hbar($id)
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
               </button>
-              <form action="#" class="searchform order-lg-last">
+              <!--<form action="#" class="searchform order-lg-last">
                 <div class="form-group d-flex">
                   <input type="text" class="form-control pl-3" placeholder="Search">
                   <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
                 </div>
-              </form>
+              </form>-->
               <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
@@ -222,12 +225,12 @@ function hbar($id)
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last">
+        <!--<form action="#" class="searchform order-lg-last">
           <div class="form-group d-flex">
             <input type="text" class="form-control pl-3" placeholder="Search">
             <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
           </div>
-        </form>
+        </form>-->
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
@@ -250,12 +253,12 @@ function hbar($id)
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last">
+        <!--<form action="#" class="searchform order-lg-last">
           <div class="form-group d-flex">
             <input type="text" class="form-control pl-3" placeholder="Search">
             <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
           </div>
-        </form>
+        </form>-->
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
@@ -278,12 +281,12 @@ function hbar($id)
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last">
+        <!--<form action="#" class="searchform order-lg-last">
           <div class="form-group d-flex">
             <input type="text" class="form-control pl-3" placeholder="Search">
             <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
           </div>
-        </form>
+        </form>-->
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
@@ -293,6 +296,34 @@ function hbar($id)
             <li class="nav-item active"><a href="students" class="nav-link">Students</a></li>
             <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
             <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
+            <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
+            <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>';
+      break;
+    case 6:
+      echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container d-flex align-items-center px-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <!--<form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+          </div>
+        </form>-->
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
+            <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
+            <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+            <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
+            <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
+            <li class="nav-item active"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
             <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
             <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
           </ul>

@@ -150,11 +150,12 @@
   </section> -->
 
 
+
   <section class="ftco-section bg-light">
     <div class="container-fluid px-4">
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-md-8 text-center heading-section ftco-animate">
-          <h2 class="mb-4">Certified Teachers</h2>
+          <h2 class="mb-4">Staff</h2>
           <!-- <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
         </div>
       </div>
@@ -162,13 +163,13 @@
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-1.jpg.pagespeed.ic.AyWvtajk8X.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/cee.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
               <h3>Dr. Cecilia Tutu-Danquah</h3>
-              <span class="position mb-2">Lecturer (Full Time)</span>
+              <span class="position mb-2">Principal</span>
               <div class="faded">
-                <p>PhD. Guidance and Counselling</p>
+                <!-- <p>PhD. Guidance and Counselling</p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -179,58 +180,17 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-2.jpg.pagespeed.ic.RFUpMj6Lab.jpg')"></div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h3>Mr. Prince Kwame Affum</h3>
-              <span class="position mb-2">Lecturer (Part-Time)</span>
-              <div class="faded">
-                <p>MPhil. Guidance and Counselling
 
-                </p>
-                <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-3.jpg.pagespeed.ic.po_-LXQR-Y.jpg')"></div>
-            </div>
-            <div class="text pt-3 text-center">
-              <h3>Rev. Fr. Anthony Amponsah</h3>
-              <span class="position mb-2">Lecturer (Part-Time)</span>
-              <div class="faded">
-                <p>MPhil. in Psychology (Clinical)</p>
-                <ul class="ftco-social text-center">
-                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-4.jpg.pagespeed.ic.lo-cdHm6M8.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/gilbert.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
               <h3>Mr. Gilbert Dadzie</h3>
-              <span class="position mb-2">Lecturer (Part Time)</span>
+              <span class="position mb-2">Acting Vice Principal</span>
               <div class="faded">
-                <p>MPhil. Guidance and Counselling</p>
+                <!-- <p>MPhil. Guidance and Counselling</p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -241,29 +201,16 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-section bg-light">
-    <div class="container-fluid px-4">
-      <div class="row justify-content-center mb-5 pb-2">
-        <div class="col-md-8 text-center heading-section ftco-animate">
-          <h2 class="mb-4">NON-ACADEMIC STAFF</h2>
-          <!-- <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
-        </div>
-      </div>
-      <div class="row">
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-1.jpg.pagespeed.ic.AyWvtajk8X.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/king.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
               <h3>Mr. Kingsley Amenuvor</h3>
               <span class="position mb-2">Registrar</span>
               <div class="faded">
-                <p>B.Ed. Information Technology</p>
+                <!-- <p>B.Ed. Information Technology</p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -274,18 +221,44 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-2.jpg.pagespeed.ic.RFUpMj6Lab.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/wisdom.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
               <h3>Mr. Wisdom K. Kudjordji</h3>
               <span class="position mb-2">Administrative Officer</span>
               <div class="faded">
-                <p>MPhil. Guidance and Counselling
+                <!-- <p>MPhil. Guidance and Counselling
 
-                </p>
+                </p> -->
+                <ul class="ftco-social text-center">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/ruth.jpg')"></div>
+            </div>
+            <div class="text pt-3 text-center">
+              <h3>Ms. Ruth Ewoenam Atsro</h3>
+              <span class="position mb-2">Human Resource Mgt.</span>
+              <div class="faded">
+                <!-- <p>MPhil. Guidance and Counselling
+
+                </p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -299,13 +272,13 @@
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-3.jpg.pagespeed.ic.po_-LXQR-Y.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/ato.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Ms. Ruth Ewoenam Atsro</h3>
-              <span class="position mb-2">B.B.A. Human Resource</span>
+              <h3>Mr. Ato Anaman</h3>
+              <span class="position mb-2">Programmes Coordinator</span>
               <div class="faded">
-                <p>Human Resource Mgt.</p>
+                <!-- <p>MPhil. in Psychology (Clinical)</p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -316,16 +289,18 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-6 col-lg-3 ftco-animate">
+        <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-              <div class="img align-self-stretch" style="background-image:url('images/xteacher-4.jpg.pagespeed.ic.lo-cdHm6M8.jpg')"></div>
+              <div class="img align-self-stretch" style="background-image:url('images/tucee/stevo.jpg')"></div>
             </div>
             <div class="text pt-3 text-center">
-              <h3>Mr. Gilbert Dadzie</h3>
-              <span class="position mb-2">Lecturer (Part Time)</span>
+              <h3>Mr. Stephen Oppong</h3>
+              <span class="position mb-2">Administrative Assistant</span>
               <div class="faded">
-                <p>MPhil. Guidance and Counselling</p>
+                <!-- <p>MPhil. Guidance and Counselling
+
+                </p> -->
                 <ul class="ftco-social text-center">
                   <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                   <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -335,7 +310,13 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
+
+
+
+
+
+
       </div>
     </div>
   </section>
