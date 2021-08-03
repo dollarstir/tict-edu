@@ -7,23 +7,26 @@ function page($id)
 {
   switch ($id) {
     case 1:
-      echo 'Home - Tucee Institute of Counseling';
+      echo 'Home - TUCEE Institute of Counseling & Technology';
       break;
     case 2:
-      echo 'Tucee - About Us';
+      echo 'TICT - About Us';
       break;
     case 3:
-      echo 'Tucee Institute -Academics';
+      echo 'TUCEE Institute -Academics';
       break;
     case 4:
-      echo 'Tucee Institute -Admissions';
+      echo 'TUCEE Institute -Admissions';
       break;
     case 5:
-      echo 'Tucee Institute -Students';
+      echo 'TUCEE Institute -Students';
       break;
     case 6:
-      echo 'Tucee Institute -Webinar & Conferences';
+      echo 'TUCEE Institute -Webinar & Conferences';
       break;
+      case 7:
+        echo 'TUCEE Institute -Media';
+        break;
     default:
       echo 'Unknown';
   }
@@ -34,7 +37,7 @@ function topmost()
     <div class="container">
       <div class="row no-gutters d-flex align-items-center align-items-stretch">
         <div class="col-md-4 d-flex align-items-center py-4">
-          <a class="navbar-brand" href="">Tucee <span>Institute of Counseling</span></a>
+          <a class="navbar-brand" href="">TUCEE <span>Institute of Counselling & Technology</span></a>
           <!-- <a class="navbar-brand" href="">
             <img src="images/logo.jpg" style="width:120px;height:120px;" />
           </a> -->
@@ -180,12 +183,20 @@ function hbar($id)
       <li class="nav-item active"><a href="" class="nav-link pl-0">Home</a></li>
       <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
       <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-      <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+      <!--<li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>-->
+      <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+      </div>
       <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
       <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
       <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
       <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
-      <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+      <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
     </ul>
   </div>
 </div>
@@ -208,7 +219,14 @@ function hbar($id)
                   <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
                   <li class="nav-item active"><a href="aboutus" class="nav-link">About Us</a></li>
                   <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-                  <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+                  <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+                  </div>
                   <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
                   <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
                   <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
@@ -236,12 +254,19 @@ function hbar($id)
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
             <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
             <li class="nav-item active"><a href="academics" class="nav-link">Academics</a></li>
-            <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+            <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+            </div>
             <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
             <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
             <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
             <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
-            <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+            <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
           </ul>
         </div>
       </div>
@@ -264,12 +289,19 @@ function hbar($id)
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
             <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-            <li class="nav-item active"><a href="admissions" class="nav-link">Admissions</a></li>
+            <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link active dropbtn" style="margin-top:12px;cursor:pointer;color:#fd5f00;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+            </div>
             <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
             <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
             <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
             <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
-            <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+            <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
           </ul>
         </div>
       </div>
@@ -292,12 +324,19 @@ function hbar($id)
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
             <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-            <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+            <div class="dropdown">
+              <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="certificate">Certificate Programmes</a>
+                <a href="cpd">CPD Programmes</a>
+                <a href="it">IT Programmes</a>
+             </div>
+            </div>
             <li class="nav-item active"><a href="students" class="nav-link">Students</a></li>
             <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
             <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
             <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
-            <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+            <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
           </ul>
         </div>
       </div>
@@ -320,12 +359,55 @@ function hbar($id)
             <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
             <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
             <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
-            <li class="nav-item"><a href="admissions" class="nav-link">Admissions</a></li>
+            <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+            </div>
             <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
             <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
             <li class="nav-item active"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
             <li class="nav-item"><a href="media" class="nav-link">Media</a></li>
-            <li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>
+            <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>';
+      break;
+
+    case 7:
+      echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container d-flex align-items-center px-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <!--<form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+          </div>
+        </form>-->
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="home" class="nav-link pl-0">Home</a></li>
+            <li class="nav-item"><a href="aboutus" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="academics" class="nav-link">Academics</a></li>
+            <div class="dropdown">
+                    <li onclick="myFunction()" class="nav-link dropbtn" style="margin-top:12px;cursor:pointer;color:white;">Admissioins</li>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="certificate">Certificate Programmes</a>
+                      <a href="cpd">CPD Programmes</a>
+                      <a href="it">IT Programmes</a>
+                    </div>
+            </div>
+            <li class="nav-item"><a href="students" class="nav-link">Students</a></li>
+            <li class="nav-item"><a href="researches" class="nav-link">Research</a></li>
+            <li class="nav-item"><a href="webconf" class="nav-link">Webinar & Conferences</a></li>
+            <li class="nav-item active"><a href="media" class="nav-link">Media</a></li>
+            <!--<li class="nav-item"><a href="programmes" class="nav-link">Programmes</a></li>-->
           </ul>
         </div>
       </div>

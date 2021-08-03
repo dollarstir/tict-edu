@@ -5,11 +5,106 @@
 
 <head>
   <title><?php page(1); ?></title>
-  <base href="/tic/">
+  <base href="https://www.tict-edu.org/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+flaticon.css+icomoon.css+style.css.pagespeed.cc.rA2R0th7PU.css" />
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <style>
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown a:hover {
+      background-color: #ddd;
+    }
+
+    .show {
+      display: block;
+    }
+
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    @media screen and (max-width: 750px) {
+      .apbtn {
+        float: right;
+        margin-top: 400px;
+        /* font-size:12px; */
+        /* height:35px; */
+        width: 60px;
+
+        /* text-align: center; */
+        /* position:absolute; */
+        /* padding-bottom:50px; */
+
+      }
+
+      .nido {
+        /* position:absolute; */
+        font-size: 12px;
+        margin-left: -15px;
+
+      }
+
+      .owl-carousel.home-slider {
+        position: relative;
+        height: 350px;
+        z-index: 0;
+      }
+
+      .owl-carousel.home-slider .slider-item {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 350px;
+        position: relative;
+        z-index: 0;
+      }
+
+      .owl-carousel .owl-stage,
+      .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: pan-y !important;
+        touch-action: pan-y !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -26,7 +121,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">Education Needs Complete Solution</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary px-4 py-3 mt-3">Apply Now</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary px-4 py-3 mt-3 apbtn"><small class="nido">Apply</small></a></p>
           </div>
         </div>
       </div>
@@ -38,7 +133,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Call to register</a></p>
+            <p class="mpd"><a href="#" class="btn btn-primary px-4 py-3 mt-3 apbtn"><small class="nido"> Register</small></a></p>
           </div>
         </div>
       </div>
@@ -51,7 +146,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3 apbtn"><small class="nido">Register</small></a></p>
           </div>
         </div>
       </div>
@@ -64,7 +159,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Register Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3 apbtn"><small class="nido">Register</small></a></p>
           </div>
         </div>
       </div>
@@ -77,7 +172,7 @@
           <div class="col-md-6 ftco-animate">
             <!-- <h1 class="mb-4">University, College School Education</h1> -->
             <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> -->
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Apply Now</a></p>
+            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3 apbtn"><small class="nido">Apply</small></a></p>
           </div>
         </div>
       </div>
@@ -225,9 +320,9 @@
           </div>
         </div>
         <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
-          <h2 class="mb-4">Tucee Institute of Counseling</h2>
+          <h2 class="mb-4">TUCEE Institute of Counselling and Technology</h2>
           <p>TUCEE Institute of Counselling and Technology (TICT) was founded by Dr. Cecilia
-            Tutu-Danquah in 2015. The institution is duly registered with the Registrar General
+            Tutu-Danquah in 2013. The institution is duly registered with the Registrar General
             Department of Ghana in 2015. The name TUCEE means Transforming our Universe
             via Counselling, Education and Empowerment. TICT seeks to promote the
             counselling profession through high quality training and research.
@@ -301,12 +396,12 @@
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
             </p> -->
-            <h3><a href="#">Certificate in Counselling</a></h3>
+            <h3><a href="#">CERTIFCATE IN COUNSELLING</a></h3>
             <p>
             <ul>
-              <li>Certificate in Counselling psychology</li>
-              <li>Certificate in academin and career counselling</li>
-              <li>Certificate in child and adolescent counselling</li>
+              <li>Certificate in Counselling Psychology</li>
+              <li>Certificate in Academin and Career Counselling</li>
+              <li>Certificate in Child and Adolescent Counselling</li>
             </ul>
             </p>
             <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary">Apply now</a></p>
@@ -320,15 +415,15 @@
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
             </p> -->
-            <h3><a href="#">Continuous Professional Development for Counsellors
+            <h3><a href="#">CONTINUOUS PROFESSIONAL DEVELOPOMENT FOR COUNSELLORS
               </a>
             </h3>
             <p>
             <ul>
-              <li>Foundations of cyber counseling practice</li>
-              <li>Modalities and ethics in cyber counselling</li>
-              <li>Introduction to pre marriage counselling</li>
-              <li>Foundamentals in couples and family therapy</li>
+              <li>Foundations of Cyber Counselling Practice</li>
+              <li>Modalities and Ethics in Cyber Counselling</li>
+              <li>Introduction to Pre marriage Counselling</li>
+              <li>Foundamentals in Couples and Family Therapy</li>
             </ul>
             </p>
             <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTY3EEvj-yL_r_PF03vdN8dtAdjAxL2POyfPSRVcTq3kz3VA/viewform" target="blank" class="btn btn-primary">Apply now</a></p>
@@ -342,7 +437,7 @@
               <span><i class="icon-table mr-2"></i>10 seats</span>
               <span><i class="icon-calendar mr-2"></i>4 Years</span>
             </p> -->
-            <h3><a href="#">IT Professional Skll Development
+            <h3><a href="#">IT PROFESSIONAL SKILLS DEVELOPMENT
               </a>
             </h3>
             <p>
@@ -864,6 +959,28 @@
     gtag('config', 'UA-23581568-13');
   </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66f10f37696b405d","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.6.0","si":10}'></script>
+
+  <script>
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
 </body>
 
 </html>

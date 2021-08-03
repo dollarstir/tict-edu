@@ -97,106 +97,94 @@
           </p>
           <h4>
             <u>
-            CERTIFCATE IN COUNSELLING PROGRAMMES</u>
+            CONTINUOUS PROFESSIONAL DEVELOPMENT FOR COUNSELLORS PROGRAMMES</u>
           </h4>
           <p>
           <ul>
 
-            <li>Certificate in Counselling Psychology
+            <li>Foundations of Cyber Counseling Practice
             </li>
-            <li>Certificate in Academin and Career Counselling</li>
+            <li>Modalities And Ethics In Cyber Counselling</li>
   
-            <li>Certificate in Child and Adolescent Counselling
-            </li>
+            <li>Introduction to Pre-Marriage Counselling</li>
+
+            <li>Fundamentals in Couples and Family therapy</li>
 
 
           </ul>
           </p>
 
           <p>
-          <h4><u>CERTIFICATE IN COUNSELLING PSYCHOLOGY
+          <h4><u>FOUNDATIONS OF CYBER COUNSELLING PRACTICE
             </u></h4>
-            This programme aims at introducing individuals to the rudimentary skills and knowledge in foundational practice of counselling. Learners will be equipped to serve as first aid counselling practitioners in the case where professional counsellors are not available.  They will also be educated to gain the skill and knowledge in referring cases and making follow-up where applicable.  
-            The skills and knowledge acquired in the certificate programme in counselling psychology would be useful to anyone who has a personal or professional interest in practicing counselling skills in their social, personal and professional life.  These skills are beneficial to a wide spectrum of people wanting to be lay counsellors and those in other professions who apply counselling skills in their fields of work. On completion of this programme, the individual would be accorded with the status of a Lay Counsellor after fulfilling all procedures with Ghana Psychology Council (GPC).
+            <h5><strong>OVERVIEW</strong></h5>
+
+            This course is designed to explore the meaning, scope and importance of Cyber Counselling as a professional skill or practice. It aims to increase students’ understanding of Cyber Counselling concept and to help them to consider how their training can contribute to effective counselling in a technologically advanced world. Students will be guided to cover areas such as tools, types and systems in Professional Cyber Counselling, modalities of cyber counselling and using their Cyber communication skills in challenging and diverse situations. Students will also look at possible scenarios for Cyber Counselling in the future, carefully contrasting remote counselling work to virtual reality.
+
             <h5><strong>OBJECTIVES:</strong></h5>
             <ul>
-              <li>Introducing students to the rudimentary skills and knowledge required in foundational counselling practice. </li>
-              <li>Enhancing students’ professional relationship skillsets, through the adoption of key principles of practice from Personality Psychology and Organizational Psychology.</li>
-              <li>Equipping students to serve as first aid counselling practitioners (Lay Counsellors) within their organizations and communities, in such instances where professional counsellors are not available.  </li>
-              <li>Equipping students to serve as first aid counselling practitioners (Lay Counsellors) within their organizations and communities, in such instances where professional counsellors are not available.  </li>
-              <li>Educating students to gain the skills and knowledge in referring cases, making follow ups where applicable and adopting cyber techniques in handling counselling-related cases. </li>
+              <li>To explore the meaning, concepts, theories and principles of Cyber Counselling.</li>
+              <li>To evaluate the varied tools, types and systems in Professional Cyber Counselling.</li>
+              <li>To understand the modalities of cyber counselling and working with individuals, families, groups and organizations via internet and non-internet services. </li>
+              <li>To examine the current role and relevance of cyber counselling in society and its prospects for the future. </li>
+              <!-- <li>Educating students to gain the skills and knowledge in referring cases, making follow ups where applicable and adopting cyber techniques in handling counselling-related cases. </li> -->
             </ul>
 
           <h5><strong>ENTRY REQUIREMENT:</strong></h5>
-          <u><strong>REGULAR APPLICANTS
-            </strong></u><br>
-            Applicants must have Credits (A1-C6) in three (3) Core Subjects, including Mathematics, English Language and Social studies.  Any two (2) elective subjects. 
-            NB: Students with grade D7 will write entrance examination to justify their admission progress.
 
-
-          <br><u><strong>MATURE APPLICANTS
-            </strong></u>
             <ul>
-             <li>Applicant must be professionals (teachers, religious leaders, human resource personnel, nurse, and social worker among others) whose tasks require the application of counselling skill.</li>
-             <li>Applicants must be at least 25 years and above</li>
-             <li>He/she must be of sound mind, be able to communicate and have a good proficiency in the English language. Entrance examination would be written.</li>
+             <li>Participants should possess at least a Certificate in Counselling Psychology</li>
+             <li>Should have at least one experience in face-to-face counselling</li>
+             <li>Should be a computer and information literate</li>
           </ul>
           
-          <h5><u><strong>DURATION:</strong>
+          <!-- <h5><u><strong>DURATION:</strong>
             </u></h5>
-          12 months
+          12 months -->
 
           
           </p>
 
           <p>
-          <h4><u>CERTIFICATE IN CHILD AND ADOLESCENT COUNSELLING
+          <h4><u>MODALITIES AND ETHNIC IN CYBER COUNSELLING
             </u></h4>
           <h5><strong>OVERVIEW</strong></h5>
-          This course introduces students to the general concept of Child Protection, by uncovering the scope and basic assumptions that underlie the. Topics in this course will therefore focus on understanding the historical antecedents of Child Protection, the various schools of thought therein, key challenges in safeguarding Children within the African context, and championing the course of Child Protection in society. Key policy documents such as the United Nations Convention on the Rights of the Child (UNCRC), the European Convention on Human Rights (ECHR) and THE CHILDREN'S ACT of Ghana (1998) will also be thoroughly examined.
+          The aim of this course is to provide a thorough overview of different counselling modalities, and explore critical issues of communication within the cyber counselling space. Students will be helped to develop relevant knowledge and understanding of the unique characteristics of internet and non-internet based counselling, with a further examination on how these modalities interplay within synchronous and asynchronous communication models.
           <h5><strong>OBJECTIVES:</strong></h5>
           <ul>
-            <li>To explore the nature and scope of child and adolescent counselling.
+            <li>To explore the nature and scope of internet-based cyber counselling and therapy using video conferencing platforms.
             </li>
-            <li>To introduce students to child protection measures and interventions
-
-            </li>
-            <li>To examine the legalities of child protection and the frameworks for enforcing the rights of children.
-
-            </li>
-            <li>To explore the various laws and policy documents that seeks to safeguard children across diverse sociocultural backgrounds.
-
-            </li>
+            <li>To examine the nature and scope of non-internet based cyber counselling and therapy.</li>
+            <li>To examine the concept of communication, essential components of Communication and the channels of communication in the cyber counselling practice. </li>
+            <li>TTo explore the importance, advantages and limitations of the various cyber counselling modalities. </li>
           </ul>
           
           <h5><strong>ENTRY REQUIREMENT:
             </strong></h5>
           <ul>
-            <li>Participants should possess at least a Certificate in Counselling Psychology
-
-            </li>
-            <li>Should have at least one experience in face-to-face counselling
-            </li>
+            <li>Participants should possess at least a Certificate in Counselling Psychology</li>
+            <li>Participants should possess at least a Certificate in Counselling Psychology</li>
+            <li>Should be a computer and information literate</li>
             
           </ul>
-          <h5><strong>DURATION:</strong></h5>
+          <!-- <h5><strong>DURATION:</strong></h5> -->
           
 
           
 
           <p>
-          <h4>CERTIFCATE IN ACADEMIC AND CAREER COUNSELLING</h4>
+          <h4>INTRODUCTION TO PRE-MARRIAGE COUNSELLING</h4>
           <h5><strong>OVERVIEW:</strong></h5>
-          This course aims at introducing student-counsellors to the basics of school and academic counselling. Topics in this course will concentrate on understanding the nature and scope of academic counselling, the roles of a school counsellor, the relevance of school or academic counselling and how to ensure effective counselling systems for students at the basic and secondary levels of education. It will also provide an overview of career counselling and the essential issues surrounding career identification and development.
+          This course intends to assist students to acquire the knowledge, skills and practice required in planning and working through the counselling process with individuals who are intending to get married. Students will be introduced to a variety of approaches that have been developed for thorough premarital counselling. The student will develop the requisite skills and knowledge of using premarital inventories, assessment, and counselling to develop healthy, vibrant, and faith-grounded pre-marriage counselling.
           <h5><strong>OBJECTIVES:</strong></h5>
           <ul>
-            <li>To explore the fundamental elements of academic and school-based counselling.</li>
-            <li>To examine mental health issues in schools, and how to manage such issues as lay counsellors.
-            </li>
-            <li>To examine the role of teachers and counsellors in promoting the psychosocial wellbeing of special-needs students.
-            </li>
-            <li>To expose students to some essential concepts and principles relevant to the career identification and development process.</li>
-            <li>Help students gain fundamentals skills in career counselling that will help them guide prospective clients in their career decisions and development.</li>
+            <li>To improve students’ ability to communicate effectively with would-be couples and help them set realistic expectations for their intended marriage. </li>
+            <li>To equip students with the skills in helping would-be couples to establish positive attitude towards marriage</li>
+            <li>
+            To guide students to provide an in-depth study of premarital counselling as well as dissolution, intervention strategies, and factors central to pre-marital stability of marriage, growth and health.
+</li>
+            <!-- <li>To expose students to some essential concepts and principles relevant to the career identification and development process.</li>
+            <li>Help students gain fundamentals skills in career counselling that will help them guide prospective clients in their career decisions and development.</li> -->
           </ul>
           
           <h5><strong>ENTRY REQUIREMENT:</strong></h5>
@@ -206,8 +194,34 @@
           <li>Should have at least one experience in face-to-face counselling</li>
           </ul>
           
-          <h5><strong>DURATION: </strong></h5>
-          12 months
+          <!-- <h5><strong>DURATION: </strong></h5>
+          12 months -->
+
+          </p>
+
+
+          <p>
+          <h4>FUNDAMENTALS IN COUPLES AND FAMILY THERAPY</h4>
+          <h5><strong>OVERVIEW:</strong></h5>
+          The aim of this course is to expose students to an in-depth examination of the dynamics of marriage and family relationships, with emphasis on the structure and function of marriage, various aspects of the marital relationship, family systems, and ways to conduct marriage counselling as a creative, preventative, and healing ministry. It exposes students to short-term and long-time interventions that can be used in helping couples overcome or cope with their marital challenges.
+          <h5><strong>OBJECTIVES:</strong></h5>
+          <ul>
+            <li>Reflect theologically on various controversial marital issues such as divorce, re-marriage, same-sex marriage, interracial marriage, communications and sex in marriage. </li>
+            <li>Introduce students to various empirically supported treatments for marriage counselling, e.g. The Gottman Method, Emotionally Focused Marital Therapy, Hope-Focused Marriage Counselling. </li>
+            <li>Provides students with the requisite skills and knowledge to assist couples through crises and to develop healthy, vibrant marriages and Christ-like marriages.
+            </li>
+            <!-- <li>To expose students to some essential concepts and principles relevant to the career identification and development process.</li>
+            <li>Help students gain fundamentals skills in career counselling that will help them guide prospective clients in their career decisions and development.</li> -->
+          </ul>
+          
+          <h5><strong>ENTRY REQUIREMENT:</strong></h5>
+          
+          <ul>
+            <li>Participants should possess at least a Certificate in Counselling Psychology</li>
+          <li>Should have at least one experience in face-to-face counselling</li>
+          </ul>
+          
+         
 
           </p>
 

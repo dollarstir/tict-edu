@@ -8,6 +8,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+flaticon.css+icomoon.css+style.css,Mcc.rA2R0th7PU.css.pagespeed.cf.cjMwC8kh-G.css" />
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<style>
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown a:hover {
+      background-color: #ddd;
+    }
+
+    .show {
+      display: block;
+    }
+
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+</style>
 </head>
 
 <body>
@@ -27,18 +77,165 @@
       </div>
     </div>
   </section>
-  <section class="ftco-section ftco-no-pt ftc-no-pb">
+  <section class="ftco-section ftco-counter img" id="section-counter" style="background-image:url('images/tucee/12.jpg')" data-stellar-background-ratio="0.5">
     <div class="container">
-      <div class="row d-flex">
-        <!-- <div class="col-md-5 order-md-last wrap-about wrap-about d-flex align-items-stretch">
-          <div class="img" style="background-image:url('images/xabout.jpg.pagespeed.ic.3s8I7PYVts.jpg');border"></div>
-        </div> -->
-        <div class="col-md-10 wrap-about py-5 pr-md-4 ftco-animate">
-          <h2 class="mb-4">Tucee Institute of Counselling</h2>
-          <p>TUCEE Institute of Counselling and Technology (TICT) was founded by Dr. Cecilia Tutu-Danquah in 2013 but was duly registered for full and official operation in 2015. The name initialisation of TUCEE means Transforming our Universe via Counselling, Education and Empowerment which is the mission of the institute. TICT is an academic, professional and research-based institution. In TICT, unlike other institutions where people just acquire knowledge upon graduation, our fellows (students) are given a profession. TICT is the first institution in Ghana that offers a combination of programmes in Counselling and Technology. Currently, the institution runs its programmes both on week days and weekends using the blended learning model where fellows attend online lectures and face-to-face tutorials where necessary.
+      <div class="row justify-content-center mb-5 pb-2 d-flex">
+        <div class="col-md-6 align-items-stretch d-flex">
+          <div class="img img-video d-flex align-items-center" style="background-image:url('images/tucee/12.jpg')">
+            <div class="video justify-content-center">
+              <a href="images/tucee/7.jpg" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                <span class="ion-ios-play"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 heading-section heading-section-white ftco-animate pl-lg-5 pt-md-0 pt-5">
+          <h2 class="mb-4">TUCEE Institute of Counselling and Technology</h2>
+          <p>TUCEE Institute of Counselling and Technology (TICT) was founded by Dr. Cecilia
+            Tutu-Danquah in 2013. The institution is duly registered with the Registrar General
+            Department of Ghana in 2015. The name TUCEE means Transforming our Universe
+            via Counselling, Education and Empowerment. TICT seeks to promote the
+            counselling profession through high quality training and research.
+            TICT is the first institution in Ghana that offers a combination of programmes in
+            Counselling and Technology. Currently, the institution runs its programmes on
+            weekends using the blended learning model where students attends online lectures
+            and face-to-face tutorials. TICT is the first institution in Ghana that offers a
+            combination of programmes in Counselling and Technology.
           </p>
-          <h3><u>GENERAL AIMS </u></h3>
-          <p>The basic aim of TICT is to create a new thought process of the society by empowering fellows(students) to reach for the highest practice in their profession (Counselling and Technology). This is done through the integration and application of counselling and technology-based knowledge and skills. In TICT, we believe that the greatest battle in human life starts from the mind and ends in the heart. For this reason, we hold the belief that once the mind and the heart are transformed toward the achievement of a goal nothing is impossible.
+
+        </div>
+      </div>
+      <!-- <div class="row d-md-flex align-items-center justify-content-center">
+        <div class="col-lg-12">
+          <div class="row d-md-flex align-items-center">
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="icon"><span class="flaticon-doctor"></span></div>
+                <div class="text">
+                  <strong class="number" data-number="18">0</strong>
+                  <span>Certified Teachers</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="icon"><span class="flaticon-doctor"></span></div>
+                <div class="text">
+                  <strong class="number" data-number="401">0</strong>
+                  <span>Students</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="icon"><span class="flaticon-doctor"></span></div>
+                <div class="text">
+                  <strong class="number" data-number="30">0</strong>
+                  <span>Courses</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="icon"><span class="flaticon-doctor"></span></div>
+                <div class="text">
+                  <strong class="number" data-number="50">0</strong>
+                  <span>Awards Won</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <section class="ftco-services ftco-no-pb">
+    <div class="container-wrap">
+      <div class="row no-gutters">
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-teacher"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Mission</h3>
+              <p>
+                Transforming our universe via counselling, education and empowerment.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-reading"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Vision</h3>
+              <p>To become the leading institution that promote professionalism and best practice in counselling practice and integration of technologies in all disciplines via quality research, training, practice and advocacy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-books"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Motto</h3>
+              <p>
+                We counsel, educate and empower.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-diploma"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Our Commitment</h3>
+              <p>The TICT team seeks to be good stewards of opportunities and resources entrusted to us. In doing this, we remain accountable for both the achievements of desired results and for the prudent
+                use of the human, physical and financial resources. As TICT is committed to training of counsellors with the compassion of our creator, we hope to go an extra mile in assisting your individuals to
+                realise their full potential for organisational and personal success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-services ftco-no-pb">
+    <div class="container-wrap">
+      <div class="row no-gutters">
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-teacher"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">TICT’S VALUES FOR EXCELLENCE</h3>
+              <p>
+              (Human dignity, Gender equity and Social inclusivity) We believe that all men and women are equal and uniquely different. Both have equal rights in the institution and participate in developmental activities equally. TICT’s staff and management ensure gender equality and social inclusivity as well as justice in all aspect of training and management of the institution. 
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-reading"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">GENERAL AIMS</h3>
+              <p>The basic aim of TICT is to create a new thought process of the society by empowering fellows(students) to reach for the highest practice in their profession (Counselling and Technology). This is done through the integration and application of counselling and technology-based knowledge and skills. In TICT, we believe that the greatest battle in human life starts from the mind and ends in the heart. For this reason, we hold the belief that once the mind and the heart are transformed toward the achievement of a goal nothing is impossible.
             <br>The Aims of the TUCEE Institute of Counselling and Technology:
           <ul>
             <li>Train individuals who seek to pursue career in the area of Counselling, Education and Technology</li>
@@ -47,42 +244,38 @@
             <li>Provide the platform for academic research and publications in the area Counselling, Education and Technology.</li>
 
           </ul>
-          </p>
-          <p>
-          <h3>
-            MISSION
-          </h3>
-          Transforming our universe via counselling, education and empowerment.
-          </p>
-          <p>
-          <h3>
-            VISION
-
-          </h3>
-          To become the leading institution that promote professionalism and best practice in counselling practice and integration of technologies in all disciplines via quality research, training, practice and advocacy.
-
-          </p>
-
-          <p>
-          <h3>MOTTO</h3>
-          We counsel, educate and empower.
-          </p>
-
-          <p>
-          <h3>OUR COMMITMENT
-          </h3>
-          The TICT team seeks to be good stewards of opportunities and resources entrusted to us. In doing this, we remain accountable for both the achievements of desired results and for the prudent use of the human, physical and financial resources. As TICT is committed to training of counsellors with the compassion of our creator, we hope to go an extra mile in assisting your individuals to realise their full potential for organisational and personal success.
-
-          </p>
-          <p>
-          <h3>TICT’S VALUES FOR EXCELLENCE</h3>
-          {Human dignity, Gender equity and Social inclusivity}
-          We believe that all men and women are equal and uniquely different. Both have equal rights in the institution and participate in developmental activities equally. TICT’s staff and management ensure gender equality and social inclusivity as well as justice in all aspect of training and management of the institution.
-
-          </p>
-          <!-- <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their
-          </p> -->
+              </p>
+            </div>
+          </div>
         </div>
+        <!-- <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-primary">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-books"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Motto</h3>
+              <p>
+                We counsel, educate and empower.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex services align-self-stretch py-5 px-4 ftco-animate bg-darken">
+          <div class="media block-6 d-block text-center">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-diploma"></span>
+            </div>
+            <div class="media-body p-2 mt-3">
+              <h3 class="heading">Our Commitment</h3>
+              <p>The TICT team seeks to be good stewards of opportunities and resources entrusted to us. In doing this, we remain accountable for both the achievements of desired results and for the prudent
+                use of the human, physical and financial resources. As TICT is committed to training of counsellors with the compassion of our creator, we hope to go an extra mile in assisting your individuals to
+                realise their full potential for organisational and personal success.
+              </p>
+            </div>
+          </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -506,6 +699,27 @@
     gtag('config', 'UA-23581568-13');
   </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66f10f3f5b7f40c6","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.6.0","si":10}'></script>
+  <script>
+    /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
 </body>
 
 </html>
