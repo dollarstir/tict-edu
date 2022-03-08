@@ -10,24 +10,24 @@
   <link rel="stylesheet" href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+flaticon.css+icomoon.css+style.css,Mcc.rA2R0th7PU.css.pagespeed.cf.cjMwC8kh-G.css" />
   <!-- favicons -->
   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-<link rel="manifest" href="icons/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<style>
-  .dropdown-content {
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <style>
+    .dropdown-content {
       display: none;
       position: absolute;
       background-color: #f1f1f1;
@@ -57,7 +57,7 @@
       position: relative;
       display: inline-block;
     }
-</style>
+  </style>
 </head>
 
 <body>
@@ -222,7 +222,7 @@
             <div class="media-body p-2 mt-3">
               <h3 class="heading">TICT’S VALUES FOR EXCELLENCE</h3>
               <p>
-              (Human dignity, Gender equity and Social inclusivity) We believe that all men and women are equal and uniquely different. Both have equal rights in the institution and participate in developmental activities equally. TICT’s staff and management ensure gender equality and social inclusivity as well as justice in all aspect of training and management of the institution. 
+                (Human dignity, Gender equity and Social inclusivity) We believe that all men and women are equal and uniquely different. Both have equal rights in the institution and participate in developmental activities equally. TICT’s staff and management ensure gender equality and social inclusivity as well as justice in all aspect of training and management of the institution.
 
               </p>
             </div>
@@ -236,14 +236,14 @@
             <div class="media-body p-2 mt-3">
               <h3 class="heading">GENERAL AIMS</h3>
               <p>The basic aim of TICT is to create a new thought process of the society by empowering fellows(students) to reach for the highest practice in their profession (Counselling and Technology). This is done through the integration and application of counselling and technology-based knowledge and skills. In TICT, we believe that the greatest battle in human life starts from the mind and ends in the heart. For this reason, we hold the belief that once the mind and the heart are transformed toward the achievement of a goal nothing is impossible.
-            <br>The Aims of the TUCEE Institute of Counselling and Technology:
-          <ul>
-            <li>Train individuals who seek to pursue career in the area of Counselling, Education and Technology</li>
-            <li> Organise seminars, public lectures and conferences to build the capacities of Counsellors and Associates for country and per capita income.</li>
-            <li> Organise Continuous Professional Development Programmes (CPDs) for Counsellors, Educationists and other professionals whose jobs seek to empower and transform character.</li>
-            <li>Provide the platform for academic research and publications in the area Counselling, Education and Technology.</li>
+                <br>The Aims of the TUCEE Institute of Counselling and Technology:
+              <ul>
+                <li>Train individuals who seek to pursue career in the area of Counselling, Education and Technology</li>
+                <li> Organise seminars, public lectures and conferences to build the capacities of Counsellors and Associates for country and per capita income.</li>
+                <li> Organise Continuous Professional Development Programmes (CPDs) for Counsellors, Educationists and other professionals whose jobs seek to empower and transform character.</li>
+                <li>Provide the platform for academic research and publications in the area Counselling, Education and Technology.</li>
 
-          </ul>
+              </ul>
               </p>
             </div>
           </div>
